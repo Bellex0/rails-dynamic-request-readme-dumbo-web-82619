@@ -1,4 +1,4 @@
-class PostsController < ApplicationController::Base
+class PostsController < ApplicationController
 
 def show  
   @post = Post.find(params[:id])
